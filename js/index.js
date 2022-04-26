@@ -59,7 +59,7 @@ $(document).ready(function () {
     $("#dateTT").blur(checkValidNTT);
     
     function checkValidSDT() {
-        var reg = /^0\d{3}-\d{3}-d{3}$/;
+        var reg = /^0\d{3}-\d{3}-\d{3}$/;
         if($("#idSDT").val()==""){
             $("#tbSDT").html("Vui lòng nhập dữ liệu");
             return false;
